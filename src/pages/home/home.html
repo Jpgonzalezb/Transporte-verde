@@ -1,14 +1,30 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
+  <ion-navbar color="secondary">
+    <ion-title text-center>
+      BiciGreen
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+    <ion-card><img src="assets/img/Logo.png"/>
+    </ion-card>
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Usuario</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label floating>Contraseña</ion-label>
+        <ion-input type="password" value=""></ion-input>
+    </ion-item>
+  </ion-list>
+  <div padding>
+    <button ion-button color="secondary" full>Ingresar</button>
+  </div>
+    <div text-center><button ion-button color="primary" round><ion-icon name="logo-facebook"></ion-icon></button>
+      <button ion-button color="danger" round><ion-icon name="logo-googleplus"></ion-icon></button>    
+      <button ion-button color="primary" round><ion-icon name="logo-twitter"></ion-icon></button>
+      </div>
 </ion-content>
